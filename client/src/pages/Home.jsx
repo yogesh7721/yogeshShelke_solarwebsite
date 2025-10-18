@@ -9,8 +9,8 @@ import solar14 from "/solar14.jpg";
 
 import HeroSection from "../components/HeroSection";
 import SolarEnergyService from "../components/SolarEnergyService";
-import SolarVideo from "../components/solarVideo";
 import Question from "../components/Question";
+import SolarVideos from "../components/SolarVideos";
 
 const slides = [
     { image: solar3 },
@@ -95,7 +95,7 @@ const Home = () => {
             {/* Other Sections */}
             <HeroSection />
             <SolarEnergyService />
-            <SolarVideo />
+            <SolarVideos />
             <Question />
         </div>
     );

@@ -3,7 +3,7 @@ import { FaUsersCog, FaCogs, FaDollarSign, FaHandshake, FaBolt, FaClock } from "
 import solarWorkers from "/solar11.webp";
 import solarPanels from "/solar12.webp";
 
-const SolarVideo = () => {
+const SolarVideos = () => {
     return (
         <div className="mb-10">
             <div className="bg-blue-950 py-20 px-4">
@@ -159,4 +159,4 @@ const SolarVideo = () => {
         </div>
     );
 }
-export default SolarVideo
+export default SolarVideos

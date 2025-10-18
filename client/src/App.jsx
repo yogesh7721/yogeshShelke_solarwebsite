@@ -17,7 +17,7 @@ import Map from './components/Map'
 import SolarCalculator from './pages/SolarCalculator'
 import AdminProtected from './utils/AdminProtected'
 import Gallery from './pages/Gallery'
-import SolarVideo from './components/solarVideo'
+import SolarVideos from './components/SolarVideos'
 
 const App = () => {
   return (<>
@@ -31,7 +31,7 @@ const App = () => {
           <Route path='/login' element={<Login />} />
           <Route path="/herosection" element={<HeroSection />} />
           <Route path="/solarenergyservice" element={<SolarEnergyService />} />
-          <Route path="/solarvideo" element={<SolarVideo />} />
+          <Route path="/solarvideo" element={<SolarVideos />} />
           <Route path="/solarquestion" element={<Question />} />
           <Route path='/about' element={<About />} />
           <Route path='/map' element={<Map />} />
