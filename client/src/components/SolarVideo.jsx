@@ -12,7 +12,6 @@ const SolarVideo = () => {
                         <img
                             src={solarWorkers}
                             alt="Solar Installation Team"
-                            className="w-full max-w-[500px] h-auto md:h-[500px] object-cover rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-700"
                         />
                         <img
                             src={solarPanels}

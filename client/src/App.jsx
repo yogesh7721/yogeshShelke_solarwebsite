@@ -8,7 +8,7 @@ import AdminPanel from './pages/AdminPanel'
 import Home from './pages/Home'
 import HeroSection from './components/HeroSection'
 import SolarEnergyService from './components/SolarEnergyService'
-import SolarVideo from './components/solarVideo'
+
 import Question from './components/Question'
 import Footer from './components/Footer'
 import Layout from './components/Layout'
@@ -17,7 +17,7 @@ import Map from './components/Map'
 import SolarCalculator from './pages/SolarCalculator'
 import AdminProtected from './utils/AdminProtected'
 import Gallery from './pages/Gallery'
-// import Map from './components/Map'
+import SolarVideo from './components/solarVideo'
 
 const App = () => {
   return (<>
